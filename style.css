@@ -1,0 +1,63 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* Configuration de l'écriture */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* On configure la largeur et l'épaisseur de la ligne au mileu */
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+/* Modification de la transparence du texte */
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("header.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+/* On alloue l'espace pour la ligne horizontale */
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+/* Configuration du bouton (border-radius permet d'arrondir les coins) */
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+/* Effet lorsque navigue au-dessus du bouton */
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
